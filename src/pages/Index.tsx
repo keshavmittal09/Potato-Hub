@@ -77,7 +77,7 @@ const Index = () => {
             </h1>
             
             <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-              EcoHub connects you with local businesses, surplus food opportunities, and eco-friendly products. 
+              PotatoHub connects you with local businesses, surplus food opportunities, and eco-friendly products. 
               Reduce waste, support your community, and make sustainable choices effortlessly.
             </p>
             
@@ -98,7 +98,7 @@ const Index = () => {
       <section className="py-16 px-4">
         <div className="container mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">Why Choose EcoHub?</h2>
+            <h2 className="text-3xl font-bold mb-4">Why Choose PotatoHub?</h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
               Our platform combines local business discovery, food waste reduction, and sustainable shopping 
               into one seamless experience.
@@ -185,7 +185,7 @@ const Index = () => {
         <div className="container mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4">Ready to Make a Difference?</h2>
           <p className="text-muted-foreground text-lg mb-8 max-w-2xl mx-auto">
-            Join thousands of eco-conscious consumers who are already reducing waste and supporting local businesses through EcoHub.
+            Join thousands of eco-conscious consumers who are already reducing waste and supporting local businesses through PotatoHub.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">
@@ -208,7 +208,7 @@ const Index = () => {
                 <div className="w-8 h-8 rounded-full bg-primary flex items-center justify-center">
                   <span className="text-primary-foreground font-bold">E</span>
                 </div>
-                <span className="text-xl font-bold">EcoHub</span>
+                <span className="text-xl font-bold">PotatoHub</span>
               </div>
               <p className="text-muted-foreground text-sm">
                 Building sustainable communities one local business at a time.
@@ -243,7 +243,7 @@ const Index = () => {
             </div>
           </div>
           <div className="border-t border-border/50 pt-8 mt-8 text-center text-sm text-muted-foreground">
-            © 2024 EcoHub. Making sustainability accessible for everyone.
+            © 2024 PotatoHub. Making sustainability accessible for everyone.
           </div>
         </div>
       </footer>
