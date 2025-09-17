@@ -20,16 +20,13 @@ const Header: React.FC = () => {
             </div> */}
 {/*             ---- */}
 <div className="flex items-center space-x-2">
-  <img
-    src="/logo.png" // 👈 put your actual file name here
-    alt="PotatoHub Logo"
-    className="w-10 h-10 object-contain"
-  />
-  <div>
-    <h1 className="text-xl font-bold text-green-400">PotatoHub</h1>
-    <p className="text-sm text-gray-400">Sustainable Local Discovery</p>
+  <div className="w-10 h-10 rounded-full overflow-hidden">
+    <img
+      src="/logo.png" // 👈 put your actual file name here
+      alt="PotatoHub Logo"
+      className="w-full h-full object-cover"
+    />
   </div>
-</div>
 
 {/* ---- */}
             <div>
