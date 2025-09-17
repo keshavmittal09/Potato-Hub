@@ -85,7 +85,7 @@ const Auth = () => {
           <div className="flex justify-center mb-4">
             <Leaf className="h-12 w-12 text-primary" />
           </div>
-          <CardTitle className="text-2xl">Welcome to EcoHub</CardTitle>
+          <CardTitle className="text-2xl">Welcome to PotatoHub</CardTitle>
           <CardDescription>Join our sustainable community</CardDescription>
         </CardHeader>
         <CardContent>
