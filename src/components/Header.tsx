@@ -2,6 +2,7 @@ import React from 'react';
 import { Search, MapPin, Filter } from 'lucide-react';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
+import ThemeToggle from './ThemeToggle';
 
 const Header: React.FC = () => {
   return (
@@ -38,6 +39,7 @@ const Header: React.FC = () => {
             <Button variant="outline" size="sm">
               <Filter className="w-4 h-4" />
             </Button>
+            <ThemeToggle />
           </div>
         </div>
       </div>
