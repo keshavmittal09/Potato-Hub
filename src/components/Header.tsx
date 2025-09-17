@@ -26,6 +26,7 @@ const Header: React.FC = () => {
       alt="PotatoHub Logo"
       className="w-full h-full object-cover"
     />
+    </div>
   </div>
 
 {/* ---- */}
