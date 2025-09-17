@@ -15,12 +15,21 @@ const Header: React.FC = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center">
+{/*             <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center">
               <span className="text-primary-foreground font-bold text-lg">E</span>
-            </div>
+            </div> */}
+{/*             ---- */}
+            <div className="w-10 h-10 rounded-full overflow-hidden">
+  <img 
+    src="/logo.png"   //  put your logo path here (e.g. /logo.png inside public folder)
+    alt="Logo"
+    className="w-full h-full object-cover"
+  />
+</div>
+{/* ---- */}
             <div>
               <h1 className="text-2xl font-bold bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">
-                EcoHub
+                PotatoHub
               </h1>
               <p className="text-xs text-muted-foreground">Sustainable Local Discovery</p>
             </div>
