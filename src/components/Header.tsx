@@ -19,13 +19,18 @@ const Header: React.FC = () => {
               <span className="text-primary-foreground font-bold text-lg">E</span>
             </div> */}
 {/*             ---- */}
-            <div className="w-10 h-10 rounded-full overflow-hidden">
-  <img 
-    src="/logo.png"   //  put your logo path here (e.g. /logo.png inside public folder)
-    alt="Logo"
-    className="w-full h-full object-cover"
+<div className="flex items-center space-x-2">
+  <img
+    src="/logo.png" // 👈 put your actual file name here
+    alt="PotatoHub Logo"
+    className="w-10 h-10 object-contain"
   />
+  <div>
+    <h1 className="text-xl font-bold text-green-400">PotatoHub</h1>
+    <p className="text-sm text-gray-400">Sustainable Local Discovery</p>
+  </div>
 </div>
+
 {/* ---- */}
             <div>
               <h1 className="text-2xl font-bold bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">
