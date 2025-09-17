@@ -205,9 +205,16 @@ const Index = () => {
           <div className="grid md:grid-cols-4 gap-8">
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <div className="w-8 h-8 rounded-full bg-primary flex items-center justify-center">
+{/*                 <div className="w-8 h-8 rounded-full bg-primary flex items-center justify-center">
                   <span className="text-primary-foreground font-bold">E</span>
-                </div>
+                </div> */}
+                  <div className="w-10 h-10 rounded-full overflow-hidden">
+                          <img
+                            src="/logo.png" // 👈 put your actual file name here
+                            alt="PotatoHub Logo"
+                            className="w-full h-full object-cover"
+                          />
+                    </div>
                 <span className="text-xl font-bold">PotatoHub</span>
               </div>
               <p className="text-muted-foreground text-sm">
